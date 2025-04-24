@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#dd0000">
+    <title>Nestler Infra - Premier Mining & Distribution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>Nestler Infra</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#sustainability">Sustainability</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with particles -->
+    <section id="home" class="hero">
+        <!-- Hero-specific particles container -->
+        <div id="particles-hero" class="particles-container"></div>
+        <div class="hero-image">
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Premier Mining & Distribution Company</h2>
+                <p>With over 15 years of experience in extracting, processing, and global distribution of high-quality minerals.</p>
+                <a href="#about" class="btn">Discover More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Us</h2>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <p>Nestler Infra is a premier mining and distribution company with over 15 years of experience in the industry. We specialize in the extraction, processing, and global distribution of high-quality minerals, serving various industries with a commitment to excellence and reliability.</p>
+                    <p>Our operations extend across domestic and international markets, ensuring seamless supply chains and trusted partnerships with leading manufacturers worldwide.</p>
+                    <p>At the core of Nestler Infra is a dedicated team of industry professionals, engineers, and supply chain experts who bring extensive knowledge and expertise to our operations. Our team ensures that every stage of the mining and distribution process meets the highest standards of quality, sustainability, and efficiency.</p>
+                </div>
+                <div class="about-image animate-on-scroll">
+                    <img src="Assets/AboutImage.jpg" alt="Mining Operations">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Our Strengths Section -->
+    <section id="our-strengths" class="our-strengths">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Strengths</h2>
+            <div class="strengths-container">
+                <div class="strength-item animate-on-scroll">
+                    <div class="strength-icon">🌏</div>
+                    <div class="strength-content">
+                        <h3>Global Project Experience</h3>
+                        <p>Versatile execution across varied geographical and regulatory environments.</p>
+                    </div>
+                </div>
+                <div class="strength-item animate-on-scroll">
+                    <div class="strength-icon">👥</div>
+                    <div class="strength-content">
+                        <h3>Experienced Team</h3>
+                        <p>A strong core of architects, structural engineers, and project managers.</p>
+                    </div>
+                </div>
+                <div class="strength-item animate-on-scroll">
+                    <div class="strength-icon">🤝</div>
+                    <div class="strength-content">
+                        <h3>Client-Centric Approach</h3>
+                        <p>Transparent communication and tailor-made solutions.</p>
+                    </div>
+                </div>
+                <div class="strength-item animate-on-scroll">
+                    <div class="strength-icon">🌱</div>
+                    <div class="strength-content">
+                        <h3>Sustainability-Driven</h3>
+                        <p>Environmentally responsible practices integrated into every stage of construction.</p>
+                    </div>
+                </div>
+                <div class="strength-item animate-on-scroll">
+                    <div class="strength-icon">💡</div>
+                    <div class="strength-content">
+                        <h3>Innovation in Action</h3>
+                        <p>Leveraging advanced software and modern construction methodologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="sustainability" class="why-us">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Sustainability</h2>
+            <div class="features">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🌱</div>
+                    <h3 class="feature-title">Eco-Conscious Design</h3>
+                    <p>Implementing environmentally-conscious design principles in all our mining and processing operations.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Energy Efficiency</h3>
+                    <p>Optimizing energy usage and materials to reduce our environmental footprint.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">♻️</div>
+                    <h3 class="feature-title">Waste Management</h3>
+                    <p>Implementing waste reduction strategies and responsible sourcing practices.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🌍</div>
+                    <h3 class="feature-title">Long-Term Impact</h3>
+                    <p>Creating sustainable structures and practices that serve generations to come.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <!-- Add particles container for products -->
+        <div id="particles-products" class="particles-container"></div>
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-tabs">
+                <button class="tab-btn active" data-tab="quartz">Quartz</button>
+                <button class="tab-btn" data-tab="iron-ore">Iron Ore</button>
+            </div>
+            <div class="product-content active" id="quartz-content">
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/QuartzGritz.jpg" alt="Quartz Grits">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Quartz Grits</h3>
+                            <p class="product-desc">High-purity quartz used in glassmaking, ceramics, and foundries.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/QuartzPowder.webp" alt="Quartz Powder">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Quartz Powder</h3>
+                            <p class="product-desc">Ultra-fine quartz for paints, coatings, and polymer applications.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/SilicaSand.webp" alt="Silica Sand">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Silica Sand</h3>
+                            <p class="product-desc">Used in construction, glass production, and water filtration.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/SnowWhiteQuartz.jpg" alt="Snow White Quartz">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Snow White Quartz</h3>
+                            <p class="product-desc">Premium-grade quartz with high whiteness and low impurities.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/QuartzLumps.jpg" alt="Quartz Lumps">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Quartz Lumps</h3>
+                            <p class="product-desc">Premium-grade quartz lumps for various industrial applications.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/QuartzSlabs.jpg" alt="Quartz Slabs">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Quartz Slabs</h3>
+                            <p class="product-desc">High-quality quartz slabs for construction and decorative purposes.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/QuartzPebbles.jpg" alt="Quartz Pebbles">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Quartz Pebbles</h3>
+                            <p class="product-desc">Smooth quartz pebbles ideal for landscaping and decoration.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/HighGradeQuartz.jpg" alt="High-Grade Quartz">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">High-Grade Quartz</h3>
+                            <p class="product-desc">Superior quality quartz for specialized industrial applications.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/Glass-Grade Quartz.webp" alt="Glass-Grade Quartz">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Glass-Grade Quartz</h3>
+                            <p class="product-desc">Ultra-pure quartz specifically processed for glass manufacturing.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/Semi-TransparentQuartz.webp" alt="Semi-Transparent Quartz">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Semi-Transparent Quartz</h3>
+                            <p class="product-desc">Distinctive semi-transparent quartz for specialty applications.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/MettalurgicalGradeQuartz.webp" alt="Metallurgical Grade Quartz">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Metallurgical Grade Quartz</h3>
+                            <p class="product-desc">High-purity quartz specifically for metallurgical processes.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/MicronizedQuartz.webp" alt="Micronized Quartz">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Micronized Quartz</h3>
+                            <p class="product-desc">Finely ground quartz powder for specialized industrial uses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-content" id="iron-ore-content">
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/MagnetiteIronOre.jpeg" alt="Magnetite Iron Ore">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Magnetite Iron Ore</h3>
+                            <p class="product-desc">High iron content (75%-85% purity) for steel manufacturing.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/HematiteIronOre.webp" alt="Hematite Iron Ore">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Hematite Iron Ore</h3>
+                            <p class="product-desc">Known for its excellent iron extraction properties.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/IronLaterite.webp" alt="Iron Laterite">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Iron Laterite</h3>
+                            <p class="product-desc">Found in specific hot regions and used for industrial applications.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/ProcessedIronOre.jpg" alt="Processed Iron Ore">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Processed Iron Ore</h3>
+                            <p class="product-desc">Tailored to meet customer specifications for various uses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">⛏️</div>
+                    <h3 class="service-title">Mining Operations</h3>
+                    <p>Safe, efficient, and code-compliant solutions using modern tools and techniques.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">🚢</div>
+                    <h3 class="service-title">Global Distribution</h3>
+                    <p>Complete lifecycle management with a focus on quality, safety, and deadlines.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">✓</div>
+                    <h3 class="service-title">Consulting & Feasibility</h3>
+                    <p>Strategic advisory for complex builds and structural optimization.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">💼</div>
+                    <h3 class="service-title">Retrofitting & Rehabilitation</h3>
+                    <p>Revamping existing structures to meet modern demands and standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info animate-on-scroll">
+                    
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <div class="contact-icon">👤</div>
+                            <div class="contact-text">
+                                <strong>Managing Director</strong>
+                                Shivakumar R
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <strong>Phone</strong>
+                                +91 99441 18888
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <strong>Email</strong>
+                                shiva@nestlerinfra.com
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="contact-icon">🏢</div>
+                            <div class="contact-text">
+                                <strong>Head Office</strong>
+                                SF 366, Nochipalayam Road,
+                                Veerapandi Post, Tirupur 641605,
+                                Tamil Nadu, India
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with particles -->
+    <footer>
+        <!-- Add particles container for footer -->
+        <div id="particles-footer" class="particles-container"></div>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Nestler Infra</h3>
+                    <p>Premier mining and distribution company with over 15 years of experience in the industry.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#products">Quartz</a></li>
+                        <li><a href="#products">Iron Ore</a></li>
+                        <li><a href="#products">Silica Sand</a></li>
+                        <li><a href="#products">Quartz Slabs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Nestler Infra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts at the end of body -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/particles-config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Product tabs functionality
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.product-content').forEach(content => content.classList.remove('active'));
+                    
+                    btn.classList.add('active');
+                    const tabId = btn.getAttribute('data-tab');
+                    document.getElementById(`${tabId}-content`).classList.add('active');
+                });
+            });
+
+            // Mobile menu functionality
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('nav ul');
+            const navLinks = document.querySelectorAll('nav ul li a');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                const isActive = nav.classList.contains('active');
+                document.body.style.overflow = isActive ? 'hidden' : '';
+                mobileMenuBtn.innerHTML = isActive ? '✕' : '☰';
+                mobileMenuBtn.setAttribute('aria-expanded', isActive);
+            });
+
+            // Close menu when clicking a link
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                    mobileMenuBtn.innerHTML = '☰';
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (nav.classList.contains('active') && 
+                    !nav.contains(e.target) && 
+                    !mobileMenuBtn.contains(e.target)) {
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                    mobileMenuBtn.innerHTML = '☰';
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            // Efficient scroll animations using Intersection Observer
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        // Improve performance by unobserving after animation
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+            
+            // Add touch events for better mobile interaction
+            if ('ontouchstart' in window) {
+                document.body.classList.add('touch-device');
+            }
+            
+            // Optimize image loading
+            const lazyImages = document.querySelectorAll('.product-img img');
+            
+            if ('loading' in HTMLImageElement.prototype) {
+                // Browser supports lazy loading
+                lazyImages.forEach(img => {
+                    img.loading = 'lazy';
+                });
+            } else {
+                // Fallback for browsers that don't support lazy loading
+                const lazyImageObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src || img.src;
+                            lazyImageObserver.unobserve(img);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(img => {
+                    lazyImageObserver.observe(img);
+                });
+            }
+
+            // Debugging code for particles.js
+            console.log("DOM Loaded, checking particles.js");
+            if (typeof particlesJS !== 'undefined') {
+                console.log("particlesJS is defined!");
+                
+                // Validate if container exists
+                if (document.getElementById('particles-js')) {
+                    console.log("particles-js container found");
+                } else {
+                    console.error("particles-js container not found!");
+                }
+                
+                // Attempt to initialize particles directly if needed
+                try {
+                    particlesJS("particles-js", {
+                        "particles": {
+                            "number": {
+                                "value": 80,
+                                "density": {
+                                    "enable": true,
+                                    "value_area": 800
+                                }
+                            },
+                            "color": {
+                                "value": "#dd0000"
+                            },
+                            // Simple config to debug
+                            "opacity": {
+                                "value": 0.5
+                            },
+                            "size": {
+                                "value": 3
+                            }
+                        }
+                    });
+                    console.log("Direct particles initialization attempted");
+                } catch(e) {
+                    console.error("Error initializing particles:", e);
+                }
+            } else {
+                console.error("particlesJS is not defined! Check if library loaded correctly");
+            }
+
+            // Debug particles containers and interactions
+            const particlesContainers = document.querySelectorAll('.particles-container');
+            particlesContainers.forEach(container => {
+                console.log(`Container ${container.id} exists with pointer-events:`, 
+                    window.getComputedStyle(container).pointerEvents);
+                
+                // Add test overlay to verify mouse position detection
+                if (container.id === 'particles-hero') {
+                    container.addEventListener('mousemove', function(e) {
+                        console.log(`Mouse detected in ${container.id} at X:${e.offsetX}, Y:${e.offsetY}`);
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
