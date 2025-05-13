@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#dd0000">
+    <title>Nestler Infra - Mining Division</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the main stylesheet -->
+</head>
+<body>
+    <!-- Header Section (Copied from index.html) -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html"><img src="Assets/Logo.png" alt="Nestler Infra Logo" class="logo-img"></a>
+                
+            </div>
+            <nav>
+                <ul>
+                    <!-- Adjust links if needed, e.g., link back to index.html -->
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="#about-mining">About Us</a></li>
+                    <li><a href="mining-products">Products</a></li> <!-- Or link to a specific section -->
+                    <li><a href="#contact-mining">Contact</a></li> <!-- Link to contact section on this page -->
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Custom Banner Section for Mining Division -->
+    <section id="mining-banner" class="hero" style="min-height: 60vh; background: url('Assets/MiningBanner.jpg') center/cover no-repeat;"> <!-- Use a relevant banner image -->
+        <div id="particles-mining-banner" class="particles-container"></div>
+        <div class="hero-image">
+             <div class="overlay" style="background-color: rgba(0, 0, 0, 0.6);"></div> <!-- Slightly darker overlay maybe -->
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Earth’s Riches, Delivered Worldwide</h2>
+                <p>Earth’s Riches, Delivered Worldwide</p>
+                <a href="#about-mining" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Mining Section -->
+    <section id="about-mining" class="about" style="padding-top: 80px; background: linear-gradient(to bottom, #f9f9f9, #ffffff);">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Our Mining Division</h2>
+            <div class="about-content" style="max-width: 1000px; margin: 0 auto;">
+                <div class="about-text animate-on-scroll">
+                    <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 2em; text-align: center;">
+                        Nestler Infra Pvt Ltd specializes in mining and global export of industrial-grade minerals. With deep ties to India's top mining regions, we provide consistent, high-quality materials with global shipping support.
+                    </p>
+                    <p style="margin-bottom: 2em;">Delivering raw materials that fuel industries globally. With over 15+ years of trusted experience, we export responsibly sourced, high-purity minerals straight from India's richest mining belts.</p>
+                    <div style="background: #f5f5f5; padding: 2em; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <p style="font-weight: 600; margin-bottom: 1em;">Key focus areas include:</p>
+                        <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5em;">
+                            <li style="background: white; padding: 1.5em; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                                <strong style="color: #dd0000;">Sustainable Practices</strong><br>
+                                Implementing eco-friendly mining techniques and land reclamation programs.
+                            </li>
+                            <li style="background: white; padding: 1.5em; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                                <strong style="color: #dd0000;">Quality Assurance</strong><br>
+                                Rigorous testing and quality control at every stage, from extraction to delivery.
+                            </li>
+                            <li style="background: white; padding: 1.5em; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                                <strong style="color: #dd0000;">Global Logistics</strong><br>
+                                Efficient supply chain management ensuring timely delivery across international markets.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products List Section -->
+    <section id="mining-products" class="products" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" style="margin-bottom: 3rem; color: #333; text-align: center; font-size: 2.5em;">
+                Our Mining Products
+                <div style="width: 80px; height: 4px; background: #dd0000; margin: 15px auto;"></div>
+            </h2>
+            <div class="products-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 1rem;">
+                <div class="product-card animate-on-scroll" style="background: white; border-radius: 15px; padding: 2rem; transition: all 0.3s ease; box-shadow: 0 10px 20px rgba(0,0,0,0.05); cursor: pointer; position: relative; overflow: hidden;">
+                    <div class="product-icon" style="font-size: 3em; margin-bottom: 1rem; position: relative; z-index: 1;">⛰️</div>
+                    <h3 class="product-title" style="color: #333; font-size: 1.5em; margin-bottom: 1rem; position: relative; z-index: 1;">High-Purity Quartz</h3>
+                    <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem; position: relative; z-index: 1;">Premium quality quartz suitable for various industrial applications, including electronics and engineered stone.</p>
+                    <div class="card-cta" style="color: #dd0000; font-weight: 600; display: flex; align-items: center; gap: 0.5rem; position: relative; z-index: 1;">
+                        <a href="products.html" style="text-decoration: none; color: #dd0000;">View Details <span style="transition: transform 0.3s ease;">→</span></a>
+                    </div>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, rgba(221,0,0,0.05) 0%, rgba(221,0,0,0) 100%); opacity: 0; transition: opacity 0.3s ease;"></div>
+                </div>
+
+                <div class="product-card animate-on-scroll" style="background: white; border-radius: 15px; padding: 2rem; transition: all 0.3s ease; box-shadow: 0 10px 20px rgba(0,0,0,0.05); cursor: pointer; position: relative; overflow: hidden;">
+                    <div class="product-icon" style="font-size: 3em; margin-bottom: 1rem; position: relative; z-index: 1;">⚫</div>
+                    <h3 class="product-title" style="color: #333; font-size: 1.5em; margin-bottom: 1rem; position: relative; z-index: 1;">Iron Ore</h3>
+                    <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem; position: relative; z-index: 1;">High-grade iron ore extracted and processed for the steel manufacturing industry.</p>
+                    <div class="card-cta" style="color: #dd0000; font-weight: 600; display: flex; align-items: center; gap: 0.5rem; position: relative; z-index: 1;">
+                        <a href="products.html" style="text-decoration: none; color: #dd0000;">View Details <span style="transition: transform 0.3s ease;">→</span></a>
+                    </div>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, rgba(221,0,0,0.05) 0%, rgba(221,0,0,0) 100%); opacity: 0; transition: opacity 0.3s ease;"></div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .product-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            }
+            .product-card:hover .card-cta span {
+                transform: translateX(5px);
+            }
+            .product-card:hover div[style*="position: absolute"] {
+                opacity: 1;
+            }
+        </style>
+    </section>
+
+    <!-- Contact Section for Mining Division -->
+    <section id="contact-mining" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Contact Mining Division</h2>
+            <div class="contact-container" style="max-width: 600px;"> <!-- Centered contact info -->
+                <div class="contact-info animate-on-scroll" style="flex: none; width: 100%;">
+                    <ul class="contact-list" style="grid-template-columns: 1fr; text-align: center;"> <!-- Single column, centered -->
+                        <li class="contact-item" style="justify-content: center;">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <strong>Email</strong>
+                                <a href="mailto:mining@nestlerinfra.com" style="color: var(--medium-gray); text-decoration: none;">mining@nestlerinfra.com</a>
+                            </div>
+                        </li>
+                        <li class="contact-item" style="justify-content: center;">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <strong>Phone</strong>
+                                +91-XXXXXXXXXX <!-- Replace with actual demo phone -->
+                            </div>
+                        </li>
+                         <li class="contact-item" style="justify-content: center;">
+                            <div class="contact-icon">🏢</div>
+                            <div class="contact-text">
+                                <strong>Head Office</strong>
+                                SF 366, Nochipalayam Road,
+                                Veerapandi Post, Tirupur 641605,
+                                Tamil Nadu, India
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Copied from index.html) -->
+    <footer>
+        <!-- Add particles container for footer -->
+        <div id="particles-footer" class="particles-container"></div>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Nestler Infra</h3>
+                    <p>Premier mining and distribution company with over 15 years of experience in the industry.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                         <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#sustainability">Sustainability</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#quartz-content">Quartz</a></li>
+                        <li><a href="#other-mining-content">Iron Ore</a></li> <!-- Updated link -->
+                        <li><a href="products.html">Prefab</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.x.com/nestlerinfra">X</a></li>
+                        <li><a href="https://www.facebook.com/nestlerinfra">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/nestlerinfra">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Nestler Infra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts (Copied from index.html) -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- You might want a different or simplified particles config for this page -->
+    <!-- <script src="js/particles-config-mining.js"></script> -->
+    <script src="js/particles-config.js"></script> <!-- Or reuse the main one -->
+    <script>
+        // Initialize particles for specific sections on this page if needed
+        // particlesJS('particles-mining-banner', { /* config */ });
+        // particlesJS('particles-footer', { /* config */ }); // Re-initialize footer particles if needed
+
+        // Basic mobile menu and scroll animation logic (copied from index.html)
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Mobile menu functionality
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('nav ul');
+            const navLinks = document.querySelectorAll('nav ul li a');
+
+            mobileMenuBtn.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                const isActive = nav.classList.contains('active');
+                document.body.style.overflow = isActive ? 'hidden' : '';
+                mobileMenuBtn.innerHTML = isActive ? '✕' : '☰';
+                mobileMenuBtn.setAttribute('aria-expanded', isActive);
+            });
+
+            // Close menu when clicking a link
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    // Check if the link is for the current page before closing
+                    if (link.getAttribute('href').startsWith('#') || link.pathname === window.location.pathname) {
+                         nav.classList.remove('active');
+                         document.body.style.overflow = '';
+                         mobileMenuBtn.innerHTML = '☰';
+                         mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                    }
+                    // If linking to a different page (like index.html), the menu will close on page load anyway.
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (nav.classList.contains('active') &&
+                    !nav.contains(e.target) &&
+                    !mobileMenuBtn.contains(e.target)) {
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                    mobileMenuBtn.innerHTML = '☰';
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            // Efficient scroll animations using Intersection Observer
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+
+            // Add touch events for better mobile interaction
+            if ('ontouchstart' in window) {
+                document.body.classList.add('touch-device');
+            }
+
+            // Initialize particles if the library is loaded
+             if (typeof particlesJS !== 'undefined') {
+                 // Example: Initialize particles for banner and footer
+                 if(document.getElementById('particles-mining-banner')) {
+                    // You might use a specific config here or reuse the main one
+                    // particlesJS('particles-mining-banner', particlesConfigHero); // Assuming particlesConfigHero is defined in particles-config.js
+                 }
+                 if(document.getElementById('particles-footer')) {
+                    // particlesJS('particles-footer', particlesConfigFooter); // Assuming particlesConfigFooter is defined
+                 }
+                 console.log("Particles initialized on Mining Division page.");
+             } else {
+                 console.error("particlesJS not defined on Mining Division page.");
+             }
+        });
+    </script>
+</body>
+</html>

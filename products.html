@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#dd0000">
+    <title>Products - Nestler Infra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html"><img src="Assets/Logo.png" alt="Nestler Infra Logo" class="logo-img"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#global-reach">Global Reach</a></li>
+                    <li><a href="index.html#sustainability">Sustainability</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <!-- Add particles container for products -->
+        <div id="particles-products" class="particles-container"></div>
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-tabs">
+                <button class="tab-btn active" data-tab="mining">Mining Products</button>
+                <button class="tab-btn" data-tab="prefab">Prefab Products</button>
+            </div>
+            
+            <!-- Mining Products: Quartz and Other Mining as sub-tabs -->
+            <div class="product-content active" id="mining-content">
+                <div class="sub-tabs">
+                    <button class="sub-tab-btn active" data-subtab="quartz">Quartz</button>
+                    <button class="sub-tab-btn" data-subtab="other-mining">Iron Ore</button> <!-- Changed from Iron Ore -->
+                </div>
+                
+                <!-- Quartz Products -->
+                <div class="sub-content active" id="quartz-content">
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/QuartzGritz.jpg" alt="Quartz Grits">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Quartz Grits</h3>
+                                <p class="product-desc">High-purity quartz used in glassmaking, ceramics, and foundries.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/QuartzPowder.webp" alt="Quartz Powder">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Quartz Powder</h3>
+                                <p class="product-desc">Ultra-fine quartz for paints, coatings, and polymer applications.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/SilicaSand.webp" alt="Silica Sand">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Silica Sand</h3>
+                                <p class="product-desc">Used in construction, glass production, and water filtration.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/SnowWhiteQuartz.jpg" alt="Snow White Quartz">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Snow White Quartz</h3>
+                                <p class="product-desc">Premium-grade quartz with high whiteness and low impurities.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/QuartzLumps.jpg" alt="Quartz Lumps">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Quartz Lumps</h3>
+                                <p class="product-desc">Premium-grade quartz lumps for various industrial applications.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/QuartzSlabs.jpg" alt="Quartz Slabs">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Quartz Slabs</h3>
+                                <p class="product-desc">High-quality quartz slabs for construction and decorative purposes.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/QuartzPebbles.jpg" alt="Quartz Pebbles">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Quartz Pebbles</h3>
+                                <p class="product-desc">Smooth quartz pebbles ideal for landscaping and decoration.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/HighGradeQuartz.jpg" alt="High-Grade Quartz">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">High-Grade Quartz</h3>
+                                <p class="product-desc">Superior quality quartz for specialized industrial applications.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/Glass-Grade Quartz.webp" alt="Glass-Grade Quartz">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Glass-Grade Quartz</h3>
+                                <p class="product-desc">Ultra-pure quartz specifically processed for glass manufacturing.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/Semi-TransparentQuartz.webp" alt="Semi-Transparent Quartz">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Semi-Transparent Quartz</h3>
+                                <p class="product-desc">Distinctive semi-transparent quartz for specialty applications.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/MettalurgicalGradeQuartz.webp" alt="Metallurgical Grade Quartz">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Metallurgical Grade Quartz</h3>
+                                <p class="product-desc">High-purity quartz specifically for metallurgical processes.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/MicronizedQuartz.webp" alt="Micronized Quartz">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Micronized Quartz</h3>
+                                <p class="product-desc">Finely ground quartz powder for specialized industrial uses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Other Mining Products -->
+                <div class="sub-content" id="other-mining-content"> <!-- Changed ID from iron-ore-content -->
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/MagnetiteIronOre.jpeg" alt="Magnetite Iron Ore">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Magnetite Iron Ore</h3>
+                                <p class="product-desc">High iron content (75%-85% purity) for steel manufacturing.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/HematiteIronOre.webp" alt="Hematite Iron Ore">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Hematite Iron Ore</h3>
+                                <p class="product-desc">Known for its excellent iron extraction properties.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/IronLaterite.webp" alt="Iron Laterite">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Iron Laterite</h3>
+                                <p class="product-desc">Found in specific hot regions and used for industrial applications.</p>
+                            </div>
+                        </div> -->
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="Assets/ProcessedIronOre.jpg" alt="Processed Iron Ore">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Processed Iron Ore</h3>
+                                <p class="product-desc">Tailored to meet customer specifications for various uses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Prefab Products: No sub-tabs, only prefab product cards -->
+            <div class="product-content" id="prefab-content">
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/PrefabStruct.jpeg" alt="Prefab Strcutures">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Prefab Structures</h3>
+                            <p class="product-desc">Prefabricated structures are buildings or components manufactured off-site in a factory setting and then assembled on-site for rapid and efficient construction.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/welded-space-frame.jpg" alt="Welded Space Frame Structures">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Welded Space Frame Structures</h3>
+                            <p class="product-desc">Complete prefabricated frame structures. Ready to be installed </p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="Assets/space-frame-ball-joint-500x500.webp" alt="Space Frame Ball Joint Structures">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Prefab Structures</h3>
+                            <p class="product-desc">Industrial-grade prefabricated structures for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with particles -->
+    <footer>
+        <!-- Add particles container for footer -->
+        <div id="particles-footer" class="particles-container"></div>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Nestler Infra</h3>
+                    <p>Premier mining and distribution company with over 15 years of experience in the industry.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#sustainability">Sustainability</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#quartz-content">Quartz</a></li>
+                        <li><a href="#other-mining-content">Iron Ore</a></li> <!-- Updated link -->
+                        <li><a href="products.html">Prefab</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.x.com/nestlerinfra">X</a></li>
+                        <li><a href="https://www.facebook.com/nestlerinfra">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/nestlerinfra">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Nestler Infra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts at the end of body -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/particles-config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Product tabs functionality
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const subTabBtns = document.querySelectorAll('.sub-tab-btn');
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.product-content').forEach(content => content.classList.remove('active'));
+                    
+                    btn.classList.add('active');
+                    const tabId = btn.getAttribute('data-tab');
+                    document.getElementById(`${tabId}-content`).classList.add('active');
+                });
+            });
+
+            subTabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Find the parent product-content container
+                    const parentContent = this.closest('.product-content');
+                    if (!parentContent) return; 
+
+                    // Deactivate sub-tabs and sub-content within the same parent container
+                    parentContent.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+                    parentContent.querySelectorAll('.sub-content').forEach(content => content.classList.remove('active'));
+                    
+                    // Activate the clicked sub-tab and corresponding sub-content
+                    btn.classList.add('active');
+                    const subTabId = btn.getAttribute('data-subtab');
+                    const subContentElement = parentContent.querySelector(`#${subTabId}-content`);
+                    if (subContentElement) {
+                        subContentElement.classList.add('active');
+                    }
+                });
+            });
+
+            // Mobile menu functionality
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('nav ul');
+            const navLinks = document.querySelectorAll('nav ul li a');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                const isActive = nav.classList.contains('active');
+                document.body.style.overflow = isActive ? 'hidden' : '';
+                mobileMenuBtn.innerHTML = isActive ? '✕' : '☰';
+                mobileMenuBtn.setAttribute('aria-expanded', isActive);
+            });
+
+            // Close menu when clicking a link
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                    mobileMenuBtn.innerHTML = '☰';
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (nav.classList.contains('active') && 
+                    !nav.contains(e.target) && 
+                    !mobileMenuBtn.contains(e.target)) {
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                    mobileMenuBtn.innerHTML = '☰';
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            // Function to handle tab activation based on URL hash
+            function activateTabFromHash() {
+                const hash = window.location.hash;
+                if (!hash) return;
+
+                const targetId = hash.substring(1);
+                let targetElement = document.getElementById(targetId);
+
+                if (!targetElement) return;
+
+                // Check if the target is a main product-content section (e.g., prefab-content)
+                if (targetElement.classList.contains('product-content')) {
+                    const tabKey = targetElement.id.replace('-content', ''); // e.g., prefab
+                    const tabButton = document.querySelector(`.tab-btn[data-tab="${tabKey}"]`);
+                    if (tabButton) {
+                        tabBtns.forEach(b => b.classList.remove('active'));
+                        document.querySelectorAll('.product-content').forEach(content => content.classList.remove('active'));
+                        
+                        tabButton.classList.add('active');
+                        targetElement.classList.add('active');
+                        // Ensure sub-tabs within this main tab are correctly initialized if needed
+                        const firstSubTabButton = targetElement.querySelector('.sub-tab-btn');
+                        if (firstSubTabButton && !targetElement.querySelector('.sub-tab-btn.active')) {
+                             // If no sub-tab is active, activate the first one by default
+                            const firstSubTabKey = firstSubTabButton.getAttribute('data-subtab');
+                            const firstSubContent = targetElement.querySelector(`#${firstSubTabKey}-content`);
+                            
+                            targetElement.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+                            targetElement.querySelectorAll('.sub-content').forEach(sc => sc.classList.remove('active'));
+
+                            firstSubTabButton.classList.add('active');
+                            if(firstSubContent) firstSubContent.classList.add('active');
+                        }
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                } 
+                // Check if the target is a sub-content section (e.g., quartz-content)
+                else if (targetElement.classList.contains('sub-content')) {
+                    const parentProductContent = targetElement.closest('.product-content');
+                    if (parentProductContent) {
+                        const mainTabKey = parentProductContent.id.replace('-content', ''); // e.g., mining
+                        const mainTabButton = document.querySelector(`.tab-btn[data-tab="${mainTabKey}"]`);
+
+                        if (mainTabButton) {
+                            tabBtns.forEach(b => b.classList.remove('active'));
+                            document.querySelectorAll('.product-content').forEach(content => content.classList.remove('active'));
+
+                            mainTabButton.classList.add('active');
+                            parentProductContent.classList.add('active');
+
+                            const subTabKey = targetElement.id.replace('-content', ''); // e.g., quartz
+                            const subTabButton = parentProductContent.querySelector(`.sub-tab-btn[data-subtab="${subTabKey}"]`);
+                            
+                            if (subTabButton) {
+                                parentProductContent.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+                                parentProductContent.querySelectorAll('.sub-content').forEach(content => content.classList.remove('active'));
+
+                                subTabButton.classList.add('active');
+                                targetElement.classList.add('active');
+                                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Call activateTabFromHash after other initializations
+            activateTabFromHash();
+            // Optional: Listen for hash changes if you have internal links changing the hash
+            // window.addEventListener('hashchange', activateTabFromHash);
+
+
+            // Initialize particles.js for products page - This is handled by js/particles-config.js
+            // if (typeof particlesJS !== 'undefined') {
+            //     // particlesJS("particles-products", particlesConfig.products); // particlesConfig is not defined this way
+            //     // particlesJS("particles-footer", particlesConfig.footer);   // particles-config.js handles its own elements
+            // }
+
+            // Efficient scroll animations using Intersection Observer
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+            
+            // Optimize image loading
+            const lazyImages = document.querySelectorAll('.product-img img');
+            
+            if ('loading' in HTMLImageElement.prototype) {
+                lazyImages.forEach(img => {
+                    img.loading = 'lazy';
+                });
+            } else {
+                const lazyImageObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src || img.src;
+                            lazyImageObserver.unobserve(img);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(img => {
+                    lazyImageObserver.observe(img);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
